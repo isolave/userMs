@@ -9,8 +9,8 @@ public class UserEntity {
     private long userId;
     @Column(name = "user_name")
     private String userName;
-    @Column(name = "userAdress")
-    private String  userAdress;
+    @Column(name = "userAddress")
+    private String  userAddress;
 
     public long getUserId() {
         return userId;
@@ -28,11 +28,11 @@ public class UserEntity {
         this.userName = userName;
     }
 
-    public String getUserAdress() {
-        return userAdress;
+    public String getUserAddress() {
+        return userAddress;
     }
 
-    public void setUserAdress(String userAdress) {
-        this.userAdress = userAdress;
+    public void setUserAddress(String userAddress) {
+        this.userAddress = userAddress;
     }
 }
